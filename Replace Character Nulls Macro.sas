@@ -1,6 +1,6 @@
 /************************************************************************************
 ***** Program: 	Replace Character Nulls Macro	*****
-***** Author:	joshkylepearce      			*****
+***** Author:	joshkylepearce      		*****
 ************************************************************************************/
 
 /************************************************************************************
@@ -8,8 +8,8 @@ Purpose:
 Replace null values of character variables with a user-inputted value.
 
 Input Parameters:
-1. input_data	- The input dataset to perform null replacement.
-2. value		- The value that null values should be replaced with.
+1.	input_data	- The input dataset to perform null replacement.
+2. 	value		- The value that null values should be replaced with.
 
 Macro Usage:
 1.	Run the replace_nulls_numeric macro code.
@@ -17,7 +17,7 @@ Macro Usage:
 	e.g. %replace_nulls_numeric(input_data=work.library,value=0);
 
 Note:
-1. Input parameter 'value' is compatible with/without quotations.
+1. 	Input parameter 'value' is compatible with/without quotations.
 ************************************************************************************/
 
 %macro replace_nulls_character(input_data,value);
